@@ -5,5 +5,5 @@ func MyAdd(a, b int) int {
 }
 
 func MyMutiply(a, b int) int {
-	return a + b + 5
+	return a * b
 }
