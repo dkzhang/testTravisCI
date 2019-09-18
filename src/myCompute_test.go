@@ -16,6 +16,6 @@ func TestMyMutiply(t *testing.T) {
 	b := 3
 	c := 6
 	if MyMutiply(a, b) != c {
-		t.Errorf("%d + %d =, excepted %d, got %d", a, b, c, MyMutiply(a, b))
+		t.Errorf("%d * %d =, excepted %d, got %d", a, b, c, MyMutiply(a, b))
 	}
 }
