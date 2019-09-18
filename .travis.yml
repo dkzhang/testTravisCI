@@ -3,5 +3,7 @@ language: go
 go:
   - 1.13.x
 
+build: true
+
 script:
   - go test -v ./...
